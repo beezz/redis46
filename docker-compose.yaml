@@ -1,0 +1,18 @@
+version: "3.8"
+services:
+  master-0:
+    build:
+      dockerfile: Dockerfile4
+      context: .
+  master-1:
+    build:
+      dockerfile: Dockerfile4
+      context: .
+  master-2:
+    build:
+      dockerfile: Dockerfile4
+      context: .
+  master-6:
+    build:
+      dockerfile: Dockerfile6
+      context: .
